@@ -1,7 +1,9 @@
+import { Header } from '../../components/Header/Header'
+
 export const Home = () => {
   return (
-    <>
-      <h1>Polar - Ice cream</h1>
-    </>
+    <div className='container'>
+      <Header />
+    </div>
   )
 }

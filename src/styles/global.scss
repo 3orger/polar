@@ -1,0 +1,27 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: var(--default-color);
+  color: var(--default-font-size);
+}
+
+a {
+  color: var(--default-color);
+  &:hover {
+    color: var(--primary-color);
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 250px;
+}
