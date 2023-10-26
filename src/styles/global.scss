@@ -17,10 +17,13 @@ a {
   }
 }
 
-.container {
+#root {
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100%;
+}
+
+.container {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 250px;

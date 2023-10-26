@@ -1,0 +1,8 @@
+.root {
+  background-color: var(--primary-color-light);
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

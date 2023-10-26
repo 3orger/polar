@@ -1,9 +1,6 @@
-import { Header } from '../../components/Header/Header'
+import { data } from '../../data/data'
+import { Layout } from '../../components/Layout/Layout'
 
 export const Home = () => {
-  return (
-    <div className='container'>
-      <Header />
-    </div>
-  )
+  return <Layout data={data}>Main content</Layout>
 }
